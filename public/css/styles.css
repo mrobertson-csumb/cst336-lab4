@@ -1,0 +1,84 @@
+body {
+    background: rgba(100, 100, 100, 90) no-repeat fixed center center;
+    background-size: contain;
+    background-blend-mode: lighten;
+
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgba(9, 9, 9, .75);
+}
+
+.container {
+    overflow: hidden;
+    /*padding-top: 3%;*/
+    position: relative;
+    max-width: 50%;
+}
+
+embed {
+    border: 0;
+    height: 150%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 6.5em;
+    font-weight: bolder;
+}
+
+p, a, strong {
+    font-size: 1.8em;
+}
+
+p, strong {
+    color: rgba(9, 9, 9, .85);
+}
+
+
+:lang(ru) {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+:lang(ko) {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+h1:lang(ko) {
+    font-weight: normal;
+}
+
+.nav p,
+.nav a,
+.footer * {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.nav a {
+    margin: 0 .5em 0 .5em;
+    vertical-align: mathematical;
+}
+
+hr {
+    height: 2px;
+    color: rgba(9, 9, 9, .5);
+    background-color: rgba(9, 9, 9, .5);
+    border: none;
+}
+
+.current {
+    font-weight: normal;
+    font-size: 2.5em;
+    filter: invert();
+}
+
+.credit * {
+    font-size: inherit;
+    font-size: 80%;
+    vertical-align: baseline;
+
+}

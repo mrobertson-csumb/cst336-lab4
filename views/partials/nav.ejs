@@ -1,0 +1,39 @@
+<hr/>
+<nav class="nav">
+    <p>Haga clic en un planeta para saber más sobre él.</p>
+    <!-- home -->
+    <% if(nav == '/' ) { %>
+        <a class="current" href="/">Home</a>
+    <% } else { %>
+        <a href="/">Home</a>
+    <% } %>
+
+    <!-- mercury -->
+    <% if(nav == '/mercury' ) { %>
+        <a class="current" href="/mercury">Mercurio</a>
+    <% } else { %>
+        <a href="/mercury">Mercurio</a>
+    <% } %>
+
+    <!-- venus -->
+    <% if(nav == '/venus' ) { %>
+        <a class="current" href="/venus">Venus</a>
+    <% } else { %>
+        <a href="/venus">Venus</a>
+    <% } %>
+
+    <!-- earth -->
+    <% if(nav == '/earth' ) { %>
+        <a class="current" href="/earth">Tierra</a>
+    <% } else { %>
+        <a href="/earth">Tierra</a>
+    <% } %>
+
+    <!-- mars -->
+    <% if(nav == '/mars' ) { %>
+        <a class="current" href="/mars">Marte</a>
+    <% } else { %>
+        <a href="/mars">Marte</a>
+    <% } %>
+</nav>
+<hr/>
