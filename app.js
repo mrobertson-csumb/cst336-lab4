@@ -15,4 +15,4 @@ app.get('/mars', (req, resp) => resp.render('mars.html', {nav: req.url}));
 
 
 // server listener
-app.listen('8081', '0.0.0.0', () => console.log('express server is running...'));
+app.listen(process.env.PORT, () => console.log('express server is running...'));
